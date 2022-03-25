@@ -33,12 +33,26 @@ body {
 }
 
 .btn {
+  padding: 10px;
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 2px slateblue;
+}
+
+button:hover {
+  background-color: slateblue;
+}
+
+.col-4 {
+  padding: 5px;
+  margin: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px slateblue;
 }
 
 
