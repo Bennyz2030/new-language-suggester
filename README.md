@@ -3,7 +3,7 @@
 ## By Nicholas Benzinger
 _____________________________
 
-### Project Discription 📖
+### Project Description 📖
   * A webpage that asks the user a series of questions and suggests a programming language based on thier answers.
   _____________________________
 

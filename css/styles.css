@@ -55,7 +55,18 @@ button:hover {
   text-shadow: 1px 1px 1px slateblue;
 }
 
+img {
+  width: 50%;
+  float: left;
+  border:solid black;
+  margin:auto;
+}
 
+.card {
+  top: 25%;
+  background-color: transparent;
+  font-weight: bold;
+}
 
 
 .container{
