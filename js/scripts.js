@@ -8,9 +8,19 @@ $(document).ready(function() {
     const food = parseInt($("#food").val());
     const wierdQuestions = parseInt($("#wierd-questions").val());
     const questionInput = favMeal + book + streaming + movie + food + wierdQuestions;
+    $("#javascript").hide();
+    $("#cSharp").hide();
+    $("#ruby").hide();
+    $("#piet").hide();
 
-    if (questionInput < 10) {
+    if (questionInput < "10") {
       $("#javascript").show();
-    }
+    } else if (questionInput >= "10" && questionInput <= "19") {
+      $("#cSharp").show();
+    } else if (questionInput >= "20" && questionInput <= "25") {
+      $("#ruby").show();
+    } else if (questionInput >= "26") {
+      $("#piet").show();
+    };
   });
 });
