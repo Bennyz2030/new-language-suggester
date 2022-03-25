@@ -14,13 +14,13 @@ $(document).ready(function() {
     $("#piet").hide();
 
     if (questionInput < "10") {
-      $("#javascript").show();
+      $("#javascript").fadeIn();
     } else if (questionInput >= "10" && questionInput <= "19") {
-      $("#cSharp").show();
+      $("#cSharp").fadeIn();
     } else if (questionInput >= "20" && questionInput <= "25") {
-      $("#ruby").show();
+      $("#ruby").fadeIn();
     } else if (questionInput >= "26") {
-      $("#piet").show();
+      $("#piet").fadeIn();
     };
   });
 });
