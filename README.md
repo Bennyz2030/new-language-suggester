@@ -19,7 +19,7 @@ _______________________________
 ### Installation Instructions 🖊️
 
 * Open your terminal or console and use the command __git clone__ with this repository link: https://github.com/Bennyz2030/new-language-suggester
-* Open the new directory named prog-lang-suggester on your destop
+* Open the new directory named **prog-lang-suggester** on your destop
 * Open the index.html file in your web browser
 * _Or, open in GitHub Pages [here](https://bennyz2030.github.io/new-language-suggester/)_
 ________________________________
